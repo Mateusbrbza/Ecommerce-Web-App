@@ -488,10 +488,6 @@ export const links = [
         icon: <AiOutlineShoppingCart />,
       },
       {
-        name: 'employees',
-        icon: <IoMdContacts />,
-      },
-      {
         name: 'customers',
         icon: <RiContactsLine />,
       },
@@ -503,10 +499,6 @@ export const links = [
       {
         name: 'calendar',
         icon: <AiOutlineCalendar />,
-      },
-      {
-        name: 'kanban',
-        icon: <BsKanban />,
       },
       {
         name: 'editor',

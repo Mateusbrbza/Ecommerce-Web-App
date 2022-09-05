@@ -17,15 +17,15 @@ import { useStateContext } from '../contexts/ContextProvider';
 const Ecommerce = () => {
   return (
 
-    <div className="mt-24">
-      <div className="flex flex-wrap lg:flex-wrap justify-center">
+    <div className="mt-8">
+      <div className="flex flex-wrap justify-center">
         <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg 
-        h-44 rounded-xl w-full lg:w-100 p-8 pt-9 m-3 
+        h-44 rounded-xl w-full lg:w-80 p-9 pt-8 m-3 
         bg-hero-pattern bg-no-repeat bg-cover bg-center">
           <div className="flex justify-between items-center">
             <div>
-              <p className="font-bold text-gray-400">Ganhos</p>
-              <p className="text-2xl">R$ 5.348,58</p>
+              <p className="font-bold text-gray-400">Ganhos em 2022</p>
+              <p className="text-2xl">R$ 48.137,22</p>
             </div>
           </div>
           <div className="mt-6">
