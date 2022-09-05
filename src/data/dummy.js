@@ -474,44 +474,44 @@ export const links = [
     title: 'Dashboard',
     links: [
       {
-        name: 'ecommerce',
+        name: 'Homepage',
         icon: <FiShoppingBag />,
       },
     ],
   },
 
   {
-    title: 'Pages',
+    title: 'Paginas',
     links: [
       {
-        name: 'orders',
+        name: 'Pedidos',
         icon: <AiOutlineShoppingCart />,
       },
       {
-        name: 'customers',
+        name: 'Clientes',
         icon: <RiContactsLine />,
       },
     ],
   },
   {
-    title: 'Apps',
+    title: 'Aplicativos',
     links: [
       {
-        name: 'calendar',
+        name: 'Calendario',
         icon: <AiOutlineCalendar />,
       },
       {
-        name: 'editor',
+        name: 'Editor',
         icon: <FiEdit />,
       },
       {
-        name: 'color-picker',
+        name: 'Temas',
         icon: <BiColorFill />,
       },
     ],
   },
   {
-    title: 'Charts',
+    title: 'Graficos',
     links: [
       {
         name: 'line',

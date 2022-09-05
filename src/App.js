@@ -64,16 +64,16 @@ const App = () => {
                 <Routes>
                 {/* Dashboard  */}
                 <Route path="/" element={(<Ecommerce />)} />
-                <Route path="/ecommerce" element={(<Ecommerce />)} />
+                <Route path="/Homepage" element={(<Ecommerce />)} />
 
                 {/* Paginas  */}
-                <Route path="/orders" element={<Orders />} />
-                <Route path="/customers" element={<Customers />} />
+                <Route path="/Pedidos" element={<Orders />} />
+                <Route path="/Clientes" element={<Customers />} />
 
                 {/* Aplicativos  */}
-                <Route path="/editor" element={<Editor />} />
-                <Route path="/calendar" element={<Calendar />} />
-                <Route path="/color-picker" element={<ColorPicker />} />
+                <Route path="/Editor" element={<Editor />} />
+                <Route path="/Calendario" element={<Calendar />} />
+                <Route path="/Temas" element={<ColorPicker />} />
 
                 {/* Graficos  */}
                 <Route path="/line" element={<Line />} />
