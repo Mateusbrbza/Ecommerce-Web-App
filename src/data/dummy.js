@@ -514,7 +514,7 @@ export const links = [
     title: 'Graficos',
     links: [
       {
-        name: 'Linha',
+        name: 'Line',
         icon: <AiOutlineStock />,
       },
       {
