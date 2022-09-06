@@ -36,7 +36,7 @@ const UserProfile = () => {
           > miguel@scumbagbarbearia.com </p>
         </div>
       </div>
-      <div className="flex mt-4 p-1 justify-between">
+      <div className="flex mt-4 p-1 justify-center">
         <Button
           color="white"
           bgColor="black"
@@ -44,13 +44,7 @@ const UserProfile = () => {
           borderRadius="10px"
           width="full"
         />
-        <Button
-          color="white"
-          bgColor="red"
-          text="Fechar Menu"
-          borderRadius="10px"
-          width="full"
-        />
+        
       </div>
     </div>
 
