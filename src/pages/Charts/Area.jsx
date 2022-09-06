@@ -31,7 +31,7 @@ const Area = () => {
       title="Taxa de inflação em porcentagem" 
       />
       <ChartComponent
-      id="line-chart"
+      id="area-chart"
       height="420px"
       primaryXAxis={areaPrimaryXAxis}
       primaryYAxis={areaPrimaryYAxis}

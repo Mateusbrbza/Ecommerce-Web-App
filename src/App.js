@@ -17,13 +17,13 @@ import {
     Ecommerce, 
     Orders, 
     Calendar, 
-    Stacked, 
     Customers, 
+    Financial,
     Line,
     Area, 
     Pie, 
+    Bar,
     ColorPicker,
-    ColorMapping, 
     Editor } from './pages';
 
 import { useStateContext } from './contexts/ContextProvider';
@@ -95,9 +95,9 @@ const App = () => {
                 {/* Graficos  */}
                 <Route path="/line" element={<Line />} />
                 <Route path="/area" element={<Area />} />
+                <Route path="/bar" element={<Bar />} />
                 <Route path="/pie" element={<Pie />} />
-                <Route path="/color-mapping" element={<ColorMapping />} />
-                <Route path="/stacked" element={<Stacked />} />
+                <Route path="/financial" element={<Financial />} />
 
               </Routes>
             </div>
