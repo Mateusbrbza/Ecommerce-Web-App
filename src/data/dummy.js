@@ -514,31 +514,36 @@ export const links = [
     title: 'Graficos',
     links: [
       {
-        name: 'Line',
+        name: 'line',
         icon: <AiOutlineStock />,
       },
       {
-        name: 'Area',
+        name: 'area',
         icon: <AiOutlineAreaChart />,
       },
+
       {
-        name: 'Pizza',
+        name: 'bar',
+        icon: <AiOutlineBarChart />,
+      },
+      {
+        name: 'pie',
         icon: <FiPieChart />,
       },
       {
-        name: 'Financeiro',
+        name: 'financial',
         icon: <RiStockLine />,
       },
       {
-        name: 'Mapeado por cor',
+        name: 'color-mapping',
         icon: <BsBarChart />,
       },
       {
-        name: 'Piramide',
+        name: 'pyramid',
         icon: <GiLouvrePyramid />,
       },
       {
-        name: 'Empilhado',
+        name: 'stacked',
         icon: <AiOutlineBarChart />,
       },
     ],
