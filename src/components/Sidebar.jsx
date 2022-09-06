@@ -8,7 +8,7 @@ import { links } from '../data/dummy';
 import { useStateContext } from '../contexts/ContextProvider';
 
 const Sidebar = () => {
-  const {activeMenu, setActiveMenu, screenSize} = useStateContext();
+  const {currentColor, activeMenu, setActiveMenu, screenSize} = useStateContext();
 
   const handleCloseSidebar = () => {
     if(activeMenu && screenSize <= 900) {
@@ -40,6 +40,7 @@ const Sidebar = () => {
           </button>
         </TooltipComponent>
       </div>
+      
       <div className="mt-10">
         {links.map((item) => (
           <div key={item.title}>
@@ -51,6 +52,9 @@ const Sidebar = () => {
               to={`/${link.name}`}
               key={link.name}
               onClick={handleCloseSidebar} 
+              style={({ isActive}) => ({
+                backgroundColor: isActive ? currentColor: ''
+              })}
               className={({ isActive }) => (isActive ? activeLink : normalLink)}
               >
                 {link.icon}

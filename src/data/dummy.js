@@ -475,7 +475,7 @@ export const links = [
     links: [
       {
         name: 'Homepage',
-        icon: <FiShoppingBag />,
+        icon: <AiOutlineBarChart />,
       },
     ],
   },
@@ -520,11 +520,6 @@ export const links = [
       {
         name: 'area',
         icon: <AiOutlineAreaChart />,
-      },
-
-      {
-        name: 'bar',
-        icon: <AiOutlineBarChart />,
       },
       {
         name: 'pie',
