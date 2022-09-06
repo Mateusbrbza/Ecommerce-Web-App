@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { 
     BrowserRouter, 
     Routes, 
@@ -8,8 +8,7 @@ import { FiSettings } from 'react-icons/fi';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 
 import { 
-    Navbar, 
-    Footer, 
+    Navbar,  
     Sidebar, 
     ThemeSettings 
 } from './components';

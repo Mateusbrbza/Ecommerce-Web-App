@@ -74,7 +74,9 @@ const Navbar = () => {
         onClick={() => handleClick('userProfile')}>
           <img
           className="rounded-full w-8 h-8"
-          src={avatar} />
+          src={avatar} 
+          alt="user-profile"
+          />
           <p>
             <span className="text-gray-400 text-14">
               Olá, 
